@@ -1,24 +1,12 @@
-<section id="project">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="card bg-dark">
-          <div class="card-body">
-            <div class="row">
-              <div class="div col-lg-6">
-                <img [src]="project.image" alt="" class="img-thumbnail">
-              </div>
-              <div class="div col-lg-6">
-                <h1>{{ project.name }}</h1>
-                <hr>
-                <p>{{ project.description }}</p>
-                <hr>
-    
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="div col-lg-6">
+    <img [src]="project.image" alt="" class="img-thumbnail">
   </div>
-</section>
+  <div class="div col-lg-6">
+    <h1>{{ project.name }}</h1>
+    <hr>
+    <p>{{ project.description }}</p>
+    <hr>
+
+  </div>
+</div>
