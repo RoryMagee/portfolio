@@ -9,7 +9,7 @@ export class ProjectsComponent implements OnInit {
   
   news: Project = {
     name: 'News Website',
-    description: 'Description',
+    description: 'Description sdjkfksjdfh kjsdkfj nksjdf kjsd fkjsdnfkjsndf knjsfjksf jknskdf nskjdfn ksjd nfksnjdfkjsndf kjsndfknjsdfkj nskdfj ns asjkd ajksdbkajsbd kjasb dkbjasdkjbasdkbjasdkjb kjb kdf nskjdf ksjd nfksjd nf knjsdf jknsdfknjsdf kjnsdf kjnsf knjsfkd jnskdf jnsdkf jnkj',
     image: '../assets/img/news.PNG',
     git_link: 'placeholder',
     direct_link: 'placeholder'
