@@ -1,0 +1,12 @@
+h1, h5, p, a, i {
+    color: white;
+}
+
+#about-me {
+    background-image: url('../../assets/img/banner.svg');
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100vw;
+}
