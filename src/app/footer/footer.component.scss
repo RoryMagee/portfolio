@@ -1,0 +1,26 @@
+h1, h3, h5, p, a, i {
+    color: white;
+}
+
+#footer {
+    // background: url('../../assets/img/banner.svg');
+    // background-size: cover;
+    // background-position: top left;
+    // background-attachment: fixed;
+    // height: 100%;
+    // width: 100vw;
+    position: relative;
+    text-align: center;
+    background: #3a92da url("../../assets/img/banner.svg") bottom center no-repeat;
+    padding: 5em 0 5em 0;
+    background-size: 125%;
+}
+
+.icon {
+    color: white;
+    font-size: 2.5em;
+}
+
+.icon:hover {
+    color: grey;
+}
