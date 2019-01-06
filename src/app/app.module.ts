@@ -7,6 +7,7 @@ import { PersonalComponent } from './personal/personal.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     PersonalComponent,
     ProjectsComponent,
     ProjectComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
