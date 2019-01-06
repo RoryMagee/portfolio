@@ -14,5 +14,14 @@ app-personal {
 
 
 .content {
-  background-image: url('../assets/img/bg.jpg');
+  background-color: #183026;
+		background-image: url("../assets/img/overlay.png"), url("../assets/img/bg.jpg");
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		background-position: top left, center 0;
+		background-attachment: fixed, fixed;
+		letter-spacing: 1px;
+		color: #3a3939;
+		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
+		-webkit-text-stroke: 0.25px;
 }

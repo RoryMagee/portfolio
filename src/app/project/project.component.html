@@ -4,8 +4,8 @@
       <img [src]="project.image" alt="" class="img-thumbnail">
     </div>
     <div class="div col-lg-6">
-      <div class="card bg-light h-100">
-        <div class="card-body">
+      <div class="card bg-light h-100 vertical-align">
+        <div class="card-body px-5">
           <h1 class="card-text">
             {{ project.name }}
           </h1>
@@ -13,6 +13,11 @@
           <p class="card-text">
             {{ project.description }}
           </p>
+          <hr>
+          <span id="button-row">
+            <a class="mx-2" href="{{ project.git_link }}" target="_blank"><button>Source Code</button></a>
+            <a class="mx-2" href="{{ project.direct_link }}" target="_blank"><button>Live Demo</button></a>
+          </span>
         </div>
       </div>
     </div>
