@@ -1,25 +1,26 @@
 <div class="container">
-  <div class="row">
-    <div class="div col-xl-6 pt-1">
-      <img [src]="project.image" alt="" class="img-thumbnail">
-    </div>
-    <div class="div col-xl-6 pt-1">
-      <div class="card bg-light h-100 d-inline-block vertical-align">
-        <div class="card-body px-5">
-          <h1 class="card-text">
-            {{ project.name }}
-          </h1>
-          <hr>
-          <p class="card-text">
-            {{ project.description }}
-          </p>
-          <hr>
-          <span id="button-row">
-            <a class="mx-2" href="{{ project.git_link }}" target="_blank"><button>Source Code</button></a>
-            <a class="mx-2" href="{{ project.direct_link }}" target="_blank"><button>Live Demo</button></a>
-          </span>
+    <div class="row">
+        <div class="div col-xl-6 pt-1">
+            <img [src]="project.image" alt="" class="img-thumbnail">
         </div>
-      </div>
+        <div class="div col-xl-6 pt-1">
+            <div class="card bg-light h-100 d-inline-block vertical-align">
+                <div class="card-body px-5">
+                    <h1 class="card-text">
+                        {{ project.name }}
+                    </h1>
+                    <hr>
+                    <p class="card-text">
+                    {{ project.description }}
+                    </p>
+                    <hr>
+                    <span id="button-row">
+                        <a class="mx-2" href="{{ project.git_link }}" target="_blank"><button>Source Code</button></a>
+                        <a *ngIf="project.direct_link" class="mx-2" href="{{ project.direct_link }}" target="_blank"><button>Live Demo</button></a>
+                        <a *ngIf="!project.direct_link" class="mx-2"><button disabled>Live Demo</button></a>
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>

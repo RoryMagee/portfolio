@@ -17,6 +17,14 @@ p {
     object-fit: cover;
 }
 
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    background: grey;
+}
 
 button {
     -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
